@@ -24,12 +24,12 @@
 
 | 层 | 技术 |
 |---|------|
-| 数据库 | MongoDB (本地开发 + Atlas 部署) |
-| Shell | mongosh |
-| Node.js 驱动 | mongoose |
+| 数据库 | MongoDB Atlas（云部署） |
+| 交互方式 | mongosh + VSCode MongoDB 插件 |
+| Node.js 驱动 | mongodb 原生驱动 |
 | Python 驱动 | pymongo |
-| API 框架 | Express (Node) 或 FastAPI (Python) |
-| GUI 工具 | MongoDB Compass (可选) |
+| API 框架 | Express (Node.js) |
+| GUI 工具 | VSCode MongoDB 插件（替代 Compass） |
 
 ## 学习路径（4 周）
 
