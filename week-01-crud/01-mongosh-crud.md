@@ -83,6 +83,7 @@ db.users.replaceOne(
 | 操作符 | 作用 | SQL 类比 |
 |--------|------|----------|
 | `$set` | 设置字段值 | SET column = value |
+| `$unset` | 删除字段 | ALTER TABLE ... DROP COLUMN |
 | `$inc` | 自增/减 | SET count = count + 1 |
 
 | SQL | MongoDB |
