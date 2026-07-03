@@ -150,7 +150,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 from datetime import datetime
 
-client = MongoClient("mongodb+srv://gulzxeric_db_user:ERIClzx050628@cluster0.n07y6rd.mongodb.net/")
+client = MongoClient("mongodb+srv://<用户名>:<密码>@cluster0.n07y6rd.mongodb.net/")
 db = client["blog"]
 posts = db["posts"]
 
