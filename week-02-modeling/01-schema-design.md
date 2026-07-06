@@ -7,7 +7,7 @@ MongoDB 有两种方式处理数据关系。
 ### 嵌入（Embedded）
 
 数据直接写在父文档里，一个查询就能拿到全部数据：
-
+a
 ```javascript
 // 文章里直接内嵌评论
 db.posts.insertOne({
