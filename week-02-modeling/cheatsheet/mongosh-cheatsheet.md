@@ -80,8 +80,18 @@
 |------|------|
 | `db.users.find({}, { username: 1, email: 1, _id: 0 })` | 只返回指定字段（1=包含，0=排除） |
 
-## 辅助
+## 辅助查询
 
 | 指令 | 说明 |
 |------|------|
 | `db.users.countDocuments()` | 统计文档数量 |
+
+## mongosh 常用函数
+
+| 函数 | 说明 |
+|------|------|
+| `print("hello")` | 打印文本 |
+| `printjson({a: 1})` | 打印格式化的 JSON |
+| `ObjectId()` | 创建新 ObjectId |
+| `new Date()` | 当前时间 |
+| `ISODate("2026-07-08")` | 创建指定日期 |
