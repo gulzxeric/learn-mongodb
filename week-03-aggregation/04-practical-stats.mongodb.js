@@ -74,7 +74,6 @@ db.comments.aggregate([
       commentCount: { $sum: 1 }
     }
   },
-  { $sort: { commentCount: -1 } },
   {
     $lookup: {
       from: "posts",
