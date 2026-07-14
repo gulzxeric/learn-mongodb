@@ -6,7 +6,9 @@ from app.routers import tags, categories, users, posts, comments, stats
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    print('启动时执行')
     yield
+    print('关闭前执行')
     close_db()
 
 
