@@ -1,2 +1,4 @@
 mongo.bat
 .env
+__pycache__/
+*.pyc
