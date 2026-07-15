@@ -10,32 +10,32 @@
 
 - [x] `app/config.py` — 怎么读 .env
 - [x] `app/database.py` — 怎么连 MongoDB
-- [ ] `app/helpers.py` — ObjectId 转字符串
+- [x] `app/helpers.py` — ObjectId 转字符串
 
 ## 第 3 层：数据模型（10 分钟）
 
-- [ ] `app/schemas.py` — 5 个实体的请求/响应长什么样
+- [x] `app/schemas.py` — 5 个实体的请求/响应长什么样
 
 ## 第 4 层：最简单的 CRUD（10 分钟）⭐
 
-- [ ] `app/routers/tags.py` — 5 个函数 = 增删改查 + 列表
+- [x] `app/routers/tags.py` — 5 个函数 = 增删改查 + 列表
 
 看懂 tags.py，其他 router 都是同一套模式。
 
 ## 第 5 层：其他简单实体（5 分钟）
 
-- [ ] `app/routers/categories.py` — 跟 tags 一样
-- [ ] `app/routers/users.py` — 跟 tags 一样，多一个 createdAt
+- [x] `app/routers/categories.py` — 跟 tags 一样
+- [x] `app/routers/users.py` — 跟 tags 一样，多一个 createdAt
 
 ## 第 6 层：复杂的（15 分钟）
 
-- [ ] `app/routers/posts.py` — 引用 + 分页 + 过滤
-- [ ] `app/routers/comments.py` — 自动维护 commentCount
-- [ ] `app/routers/stats.py` — 聚合管道封装
+- [x] `app/routers/posts.py` — 引用 + 分页 + 过滤
+- [x] `app/routers/comments.py` — 自动维护 commentCount
+- [x] `app/routers/stats.py` — 聚合管道封装
 
 ## 第 7 层：数据（5 分钟）
 
-- [ ] `app/seed.py` — 种子数据怎么来的
+- [x] `app/seed.py` — 种子数据怎么来的
 
 ---
 

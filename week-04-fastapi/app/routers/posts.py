@@ -67,7 +67,7 @@ def create_post(body: PostCreate):
     if not db.categories.find_one({"_id": ObjectId(body.categoryId)}):
         raise HTTPException(400, "Category not found")
 
-    doc = body.model_dump()
+    doc = body.model_dump() # 把Pydantic对象 转成 普通dict
     doc["authorId"] = ObjectId(body.authorId)
     doc["categoryId"] = ObjectId(body.categoryId)
     doc["tags"] = [ObjectId(t) for t in body.tags]

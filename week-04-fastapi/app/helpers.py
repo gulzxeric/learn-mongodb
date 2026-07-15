@@ -6,7 +6,7 @@ from pydantic import BeforeValidator
 def validate_object_id(v):
     if isinstance(v, ObjectId):
         return str(v)
-    if isinstance(v, str):
+    if isinstance(v, str):  
         return v
     raise ValueError(f"Invalid ObjectId: {v}")
 
