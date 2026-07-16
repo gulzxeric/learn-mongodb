@@ -113,6 +113,7 @@ async function seed() {
   await db.collection("posts").createIndex("authorId");
   await db.collection("posts").createIndex("categoryId");
   await db.collection("posts").createIndex("createdAt");
+  await db.collection("posts").createIndex({ title: "text", content: "text" }, { default_language: "none" });
   await db.collection("comments").createIndex("postId");
 
   console.log("=== Seed complete ===");
